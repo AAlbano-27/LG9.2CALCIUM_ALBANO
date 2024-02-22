@@ -1,0 +1,24 @@
+<DOCTYPE html>
+<head>  
+    <title>QTR3 FA2</title>
+            <meta charset="UTF-8">
+            <meta name="author" content="Arrianne Jeshaviah P. Albano">
+            <meta name="Section" content="Calcium">
+            <meta name="description" content="3rd QTR FA2">
+</head>
+<body>
+    <h1>Second page po eto</h1>
+    <img id="mainImage" src="https://i.pinimg.com/736x/b8/1f/5c/b81f5ce4e1097a52e0f5ad2bca4014b7.jpg" alt="Original Image">
+    <br>
+    <button onclick="changeImage()">Change Image</button>
+    <button onclick="revertImage()">Revert Image</button>
+<script>
+     function changeImage() {
+            document.getElementById("mainImage").src = "https://i.pinimg.com/736x/22/2b/11/222b119700a19affd59f4d6b12023e63.jpg";
+        }
+
+        function revertImage() {
+            document.getElementById("mainImage").src = "https://i.pinimg.com/736x/b8/1f/5c/b81f5ce4e1097a52e0f5ad2bca4014b7.jpg";
+        }
+</script>
+</body>
